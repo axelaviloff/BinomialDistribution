@@ -1,4 +1,4 @@
-# BhaskaraCalculator
+# BinomialDistributionCalculator
 
 ### Objective
 probability and statistic project that consist in create a simple binomial distribution calculator using tkinter module
