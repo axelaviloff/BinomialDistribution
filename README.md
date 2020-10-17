@@ -5,12 +5,12 @@ probability and statistic project that consist in create a simple binomial distr
 
 Main screen:
 
-![Programa](https://user-images.githubusercontent.com/53865142/96016998-d083b680-0e1f-11eb-9a9c-04af4a642b62.png)
+![01](https://user-images.githubusercontent.com/53865142/96338362-d23dbc00-1063-11eb-955a-df9644d20475.png)
 
 
 Example with n = 4, x = 3 and p = 80%
 
-![Captura de tela de 2020-10-14 13-13-58](https://user-images.githubusercontent.com/53865142/96017050-e5604a00-0e1f-11eb-8115-56e7c12703c6.png)
+![02](https://user-images.githubusercontent.com/53865142/96338375-ef728a80-1063-11eb-99c0-a38bccc255b3.png)
 
 
 
