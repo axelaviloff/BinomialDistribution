@@ -87,7 +87,6 @@ def combination(n,p):
 
 
 def calculateProbability(A, B, C, D):
-    print(D)
     if A == '' or B == '' or C == '':
         messagebox.showerror("Entrada Inválida", "Entre com os 3 valores")
     
@@ -117,7 +116,6 @@ def calculateProbability(A, B, C, D):
             q = (1-(C/100)) ** (A-B)
             probabilidade = comb * p * q
             probabilidade *= 100
-            print(str(round(probabilidade, 4))+"%")
             labelPct.config(text = '')
             labelPct.config(text = "P(x = " + str(B) + ") = " + str(round(probabilidade, 4))+ "%")
         elif (D == '>='):
@@ -128,7 +126,6 @@ def calculateProbability(A, B, C, D):
                 probabilidade = comb * p * q
                 probabilidade *= 100
                 somaProbabilidade += probabilidade
-            print(str(round(somaProbabilidade, 4))+"%")
             labelPct.config(text = '')
             labelPct.config(text = "P(x >= " + str(B) + ") = " + str(round(somaProbabilidade, 4))+ "%")
         else:
@@ -139,7 +136,6 @@ def calculateProbability(A, B, C, D):
                 probabilidade = comb * p * q
                 probabilidade *= 100
                 somaProbabilidade += probabilidade
-            print(str(round(somaProbabilidade, 4))+"%")
             labelPct.config(text = '')
             labelPct.config(text = "P(x <= " + str(B) + ") = " + str(round(somaProbabilidade, 4))+ "%")
 
